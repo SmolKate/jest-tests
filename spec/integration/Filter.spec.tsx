@@ -82,13 +82,7 @@ describe('Фильтрация задач', () => {
   it('нет кнопки фильтрации', async () => {
     const preloadedState = {
       taskList: {
-        list: [
-          // {
-          //   id: '1',
-          //   header: "Первый заголовок",
-          //   done:false
-          // },
-        ],
+        list: [],
         notification:""
       }
     }
