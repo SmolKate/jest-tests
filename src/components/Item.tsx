@@ -6,6 +6,8 @@ type Props = Task & {
 };
 
 export const Item = (props: Props) => {
+  if (props.header.length > 32 || props.header.length === 0) return null
+  
   return (
     <li className="item-wrapper">
       <input
